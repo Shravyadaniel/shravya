@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-int positivenumber;https://github.com/Shravyadaniel/shravya
+int positivenumber;
 printf("enter the positive number:\n");
 scanf("%d",&positivenumber);
 int negativenumber = -positivenumber;
