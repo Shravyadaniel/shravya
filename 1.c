@@ -1,4 +1,4 @@
-/*Unary Operator
+/*
 A unary operator is an operator used to operate on a single operand to return a new value. 
 In other words, it is an operator that updates the value of an operand or 
 expression's value by using the appropriate unary operators. 
@@ -47,15 +47,22 @@ meaning the operand value is decreased by 1 before assigning to another variable
 4.b.Post Decrement: The Post decrement operator is denoted as (a--) symbol, 
 which means the original value is decreased by 1 after assigning to another variable or expression.
 */
-//program to print data type char 
+*/
+// unary operator
 #include <stdio.h>
-int main ()
+int main()
 {
-    char a ='a';
-    char c ='c';
-    printf("the value of a is %c\n",a);
+    int a;
+    printf("enter the value of a:");
+    scanf("%d", &a);
+    ++a;
+    printf("the value of a after pre incement is %d\n", a);
     a++;
-    printf("value of a after increment is %c\n",a);
-    printf("value of c is %c\n",c);
+    printf("the value of a after post increment is %d\n",a);
+    --a;
+    printf("the value of a after pre decrement is %d\n",a);
+    a--;
+    printf("the value of a after post decrement is %d",a);
     return 0;
+
 }

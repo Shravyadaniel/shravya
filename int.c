@@ -1,3 +1,7 @@
+/*
+A program to print a statement.
+*/
+//first program
 #include <stdio.h>
 int main()
 {

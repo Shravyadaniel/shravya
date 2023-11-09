@@ -12,18 +12,25 @@ Greater than Operator (>)
 Less than or Equal to Operator (<=)
 Greater than or Equal to Operator (>=)
 */
-
 //program on relational operators
+
 #include <stdio.h>
 int main()
 {
-    int a,b;
-    printf("enter the value of a:\n",a);
-    scanf("%d",&a);
-    printf("enter the value of b:\n",b);
-    scanf("%d",&b);
-    printf("a>b=%d\n",a>b);
-    printf("a<b=%d\n",a<b);
-    printf("a==b=%d\n",a==b);
+    int a =7 , b =7 , c = 3;
+
+    printf("%d == %d is %d \n", a, b, a == b);
+    printf("%d == %d is %d \n", a, c, a == c);
+    printf("%d > %d is %d \n", a, b, a > b);
+    printf("%d > %d is %d \n", a, c, a > c);
+    printf("%d < %d is %d \n", a, b, a < b);
+    printf("%d < %d is %d \n", a, c, a < c);
+    printf("%d != %d is %d \n", a, b, a != b);
+    printf("%d != %d is %d \n", a, c, a != c);
+    printf("%d >= %d is %d \n", a, b, a >= b);
+    printf("%d >= %d is %d \n", a, c, a >= c);
+    printf("%d <= %d is %d \n", a, b, a <= b);
+    printf("%d <= %d is %d \n", a, c, a <= c);
+
     return 0;
 }

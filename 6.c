@@ -1,3 +1,9 @@
+/*
+/*#define
+The #define preprocessor directive is used to define constant or micro substitution.
+It can use any basic data type.
+*/
+
 //program for finding the perimeter of a rectangle//
 #include <stdio.h>
 int perimeter(int a,int b);
