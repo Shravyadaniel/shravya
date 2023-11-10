@@ -9,6 +9,7 @@ expressions and mathematical formule.
 /	Divides numerator by de-numerator.	ex:B / A = 2
 %	Modulus Operator and remainder of after an integer division.	ex:B % A = 0
 */
+
 #include <stdio.h>
 int main()
 {
