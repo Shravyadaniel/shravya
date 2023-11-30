@@ -1,3 +1,5 @@
+
+
 // program to print an array with individual statements
 #include <stdio.h>
 int main()
