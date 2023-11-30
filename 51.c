@@ -7,4 +7,5 @@ int main()
     scanf("%d %d",&x,&y);
     (x>y)?(printf("%d is the largest number",x)):(printf("%d is the largest number",y));
     return 0;
+    
 }
