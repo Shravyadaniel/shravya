@@ -53,7 +53,7 @@ which means the original value is decreased by 1 after assigning to another vari
 int main()
 {
     int a;
-    printf("enter the value of a:");
+    printf("enter the value of a:\n");
     scanf("%d", &a);
     ++a;
     printf("the value of a after pre incement is %d\n", a);
