@@ -1,4 +1,4 @@
-//semi pyramid of stars
+//Right half pyramid of stars
 #include <stdio.h>
 int main()
 {
