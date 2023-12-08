@@ -5,6 +5,6 @@ int main()
     int i=0;
     while(i<1)
     {
-        printf("Elsa Sherin Ivan \n");
+        printf("Elsa Sherin Ivan ");
     }
 }
